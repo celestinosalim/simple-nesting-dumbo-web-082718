@@ -141,8 +141,8 @@ def adding_to_dennis
           :languages => ["C"]
         }
      }
-
+binding.pry
 adding_to_dennis = programmer_hash[:dennis_ritchie][:languages]
 adding_to_dennis.push["Assembly"]
-binding.pry
+
 end
